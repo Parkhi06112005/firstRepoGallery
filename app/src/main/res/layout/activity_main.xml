@@ -1,0 +1,247 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical"
+    android:background="@color/black">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <ImageView
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:src="@drawable/baseline_arrow_back_ios_24">
+
+        </ImageView>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Gallery"
+            android:textSize="30sp"
+            android:textColorHint="@color/white">
+
+        </TextView>
+        <ImageView
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:src="@drawable/baseline_arrow_drop_down_24"
+            android:layout_marginLeft="200sp">
+
+        </ImageView>
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="18 images"
+        android:textSize="13sp"
+        android:layout_marginLeft="320sp"></TextView>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Today"
+            android:textSize="20sp"
+            android:layout_marginStart="20sp"></TextView>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+    </LinearLayout>
+    
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="140dp">
+
+       <ImageView
+            android:layout_width="140dp"
+            android:layout_height="match_parent"
+            android:src="@drawable/bugati_1"
+           >
+        </ImageView>
+        <ImageView
+            android:layout_width="140dp"
+            android:layout_height="match_parent"
+            android:src="@drawable/audi"
+            android:layout_marginStart="1.5sp"
+            >
+        </ImageView>
+        <ImageView
+            android:layout_width="140dp"
+            android:layout_height="match_parent"
+            android:src="@drawable/mercedes"
+            android:layout_marginStart="1.5sp"
+            >
+        </ImageView>
+    </LinearLayout>
+<LinearLayout
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Yesterday"
+        android:textSize="20sp"
+        android:layout_marginLeft="20sp"
+        android:layout_marginBottom="20dp"></TextView>
+</LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="80dp">
+        <ImageView
+            android:layout_width="140dp"
+            android:layout_height="match_parent"
+            android:src="@drawable/car2"
+            android:layout_marginStart="8dp">
+
+        </ImageView>
+        <ImageView
+            android:layout_width="140dp"
+            android:layout_height="match_parent"
+            android:src="@drawable/car3"
+            android:layout_marginStart="8dp">
+
+        </ImageView>
+        <ImageView
+            android:layout_width="140dp"
+            android:layout_height="match_parent"
+            android:src="@drawable/car4"
+            android:layout_marginStart="8dp">
+
+        </ImageView>
+
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="80dp">
+        <ImageView
+            android:layout_width="140dp"
+            android:layout_height="match_parent"
+            android:src="@drawable/car5"
+            android:layout_marginStart="8dp">
+
+        </ImageView>
+        <ImageView
+            android:layout_width="140dp"
+            android:layout_height="match_parent"
+            android:src="@drawable/car6"
+            android:layout_marginStart="8dp">
+
+        </ImageView>
+        <ImageView
+            android:layout_width="140dp"
+            android:layout_height="match_parent"
+            android:src="@drawable/car7"
+            android:layout_marginStart="8dp">
+
+        </ImageView>
+
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="80dp">
+        <ImageView
+            android:layout_width="140dp"
+            android:layout_height="match_parent"
+            android:src="@drawable/car9"
+            android:layout_marginStart="8dp">
+
+        </ImageView>
+        <ImageView
+            android:layout_width="140dp"
+            android:layout_height="match_parent"
+            android:src="@drawable/car10"
+            android:layout_marginStart="8dp">
+
+        </ImageView>
+        <ImageView
+            android:layout_width="140dp"
+            android:layout_height="match_parent"
+            android:src="@drawable/car11"
+            android:layout_marginStart="8dp">
+
+        </ImageView>
+
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Mon,5 Nov"
+            android:textSize="20sp"
+            android:layout_marginLeft="20sp"
+            android:layout_marginTop="20dp"></TextView>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="80dp">
+        <ImageView
+            android:layout_width="140dp"
+            android:layout_height="match_parent"
+            android:src="@drawable/car12"
+            android:layout_marginStart="8dp">
+
+        </ImageView>
+        <ImageView
+            android:layout_width="140dp"
+            android:layout_height="match_parent"
+            android:src="@drawable/car13"
+            android:layout_marginStart="8dp">
+
+        </ImageView>
+        <ImageView
+            android:layout_width="140dp"
+            android:layout_height="match_parent"
+            android:src="@drawable/car14"
+            android:layout_marginStart="8dp">
+
+        </ImageView>
+
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="80dp">
+        <ImageView
+            android:layout_width="140dp"
+            android:layout_height="match_parent"
+            android:src="@drawable/car15"
+            android:layout_marginStart="8dp">
+
+        </ImageView>
+        <ImageView
+            android:layout_width="140dp"
+            android:layout_height="match_parent"
+            android:src="@drawable/car16"
+            android:layout_marginStart="8dp">
+
+        </ImageView>
+
+
+
+    </LinearLayout>
+    </LinearLayout>
+
+
+
+
